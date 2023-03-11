@@ -7,5 +7,8 @@
 make install
 ```
 
-### Пример запуска игры brain-even c победой и поражением игрока:
+### Demonstration of the game 'brain-even':
 [![asciicast](https://asciinema.org/a/wcsFcciZx1v5W0E21Ka95pT5I.svg)](https://asciinema.org/a/wcsFcciZx1v5W0E21Ka95pT5I)
+
+### Demonstration of the game 'brain-calc':
+[![asciicast](https://asciinema.org/a/cRxc6affyP4X6RR8wtrCqFJ9d.svg)](https://asciinema.org/a/cRxc6affyP4X6RR8wtrCqFJ9d)
