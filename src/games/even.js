@@ -10,7 +10,7 @@ export default () => {
   console.log('Answer "yes" if the number is even, otherwise answer "no"');
 
   for (let countCorrectAnswers = 0; countCorrectAnswers < 3; countCorrectAnswers += 1) {
-    const question = getRandomNumber();
+    const question = getRandomNumber(-50, 50);
     const correctAnswer = isEven(question) ? 'yes' : 'no';
 
     const result = runStep(question, correctAnswer, userName);

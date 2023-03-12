@@ -2,7 +2,7 @@ import {
   showGreetingAndGetName, getRandomNumber, runStep, showCongratulation,
 } from '../index.js';
 
-const getRandomOperator = (operators = ['+', '-', '*']) => operators[Math.round(Math.random() * (operators.length - 1))];
+const getRandomOperator = (operators = ['+', '-', '*']) => operators[Math.floor(Math.random() * operators.length)];
 
 const getCorrectAnswer = (operand1, operand2, operator) => {
   switch (operator) {
@@ -23,8 +23,8 @@ export default () => {
   console.log('What is the result of the expression?');
 
   for (let countCorrectAnswers = 0; countCorrectAnswers < 3; countCorrectAnswers += 1) {
-    const operand1 = getRandomNumber();
-    const operand2 = getRandomNumber();
+    const operand1 = getRandomNumber(-50, 50);
+    const operand2 = getRandomNumber(-5, 5);
     const operator = getRandomOperator();
 
     const question = `${operand1} ${operator} ${operand2}`;
