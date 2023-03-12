@@ -12,3 +12,6 @@ make install
 
 ### Demonstration of the game 'brain-calc':
 [![asciicast](https://asciinema.org/a/cRxc6affyP4X6RR8wtrCqFJ9d.svg)](https://asciinema.org/a/cRxc6affyP4X6RR8wtrCqFJ9d)
+
+### Demonstration of the game 'brain-gcd':
+[![asciicast](https://asciinema.org/a/YBtfRePIb5GIfLDdirIGtz5tj.svg)](https://asciinema.org/a/YBtfRePIb5GIfLDdirIGtz5tj)
