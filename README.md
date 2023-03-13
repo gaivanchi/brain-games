@@ -15,3 +15,6 @@ make install
 
 ### Demonstration of the game 'brain-gcd':
 [![asciicast](https://asciinema.org/a/YBtfRePIb5GIfLDdirIGtz5tj.svg)](https://asciinema.org/a/YBtfRePIb5GIfLDdirIGtz5tj)
+
+### Demonstration of the game 'brain-progression':
+[![asciicast](https://asciinema.org/a/PD19RJk9ubnXr0TWj7W5zpsvv.svg)](https://asciinema.org/a/PD19RJk9ubnXr0TWj7W5zpsvv)
