@@ -2,7 +2,7 @@ import {
   showGreetingAndGetName, getRandomNumber, runStep, showCongratulation,
 } from '../index.js';
 
-const getGcd = (number1, number2) => {
+const getGCD = (number1, number2) => {
   const difference = number1 - number2;
 
   if (number1 === 0 || number2 === 0) {
@@ -34,7 +34,7 @@ export default () => {
     const number2 = getRandomNumber(-50, 50);
 
     const question = `${number1} ${number2}`;
-    const correctAnswer = getGcd(number1, number2);
+    const correctAnswer = getGCD(number1, number2);
 
     const result = runStep(question, correctAnswer, userName);
 

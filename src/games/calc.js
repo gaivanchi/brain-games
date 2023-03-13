@@ -1,8 +1,8 @@
 import {
-  showGreetingAndGetName, getRandomNumber, runStep, showCongratulation,
+  showGreetingAndGetName, getRandomNumber, getRandomItem, runStep, showCongratulation,
 } from '../index.js';
 
-const getRandomOperator = (operators = ['+', '-', '*']) => operators[Math.floor(Math.random() * operators.length)];
+const operators = ['+', '-', '*'];
 
 const getCorrectAnswer = (operand1, operand2, operator) => {
   switch (operator) {
@@ -25,7 +25,7 @@ export default () => {
   for (let countCorrectAnswers = 0; countCorrectAnswers < 3; countCorrectAnswers += 1) {
     const operand1 = getRandomNumber(-50, 50);
     const operand2 = getRandomNumber(-5, 5);
-    const operator = getRandomOperator();
+    const operator = getRandomItem(operators);
 
     const question = `${operand1} ${operator} ${operand2}`;
     const correctAnswer = getCorrectAnswer(operand1, operand2, operator);
