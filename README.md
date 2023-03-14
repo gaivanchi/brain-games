@@ -18,3 +18,6 @@ make install
 
 ### Demonstration of the game 'brain-progression':
 [![asciicast](https://asciinema.org/a/PD19RJk9ubnXr0TWj7W5zpsvv.svg)](https://asciinema.org/a/PD19RJk9ubnXr0TWj7W5zpsvv)
+
+### Demonstration of the game 'brain-prime':
+[![asciicast](https://asciinema.org/a/V5GqWbwgWjEn6Q0LZQ61K8Utj.svg)](https://asciinema.org/a/V5GqWbwgWjEn6Q0LZQ61K8Utj)
