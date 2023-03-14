@@ -9,9 +9,9 @@ export const showGreetingAndGetName = () => {
 
 export const getRandomNumber = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
 
-export const getRandomItem = (coll) => coll[Math.floor(Math.random() * coll.length)];
+export const getRandomIndex = (coll) => getRandomNumber(0, coll.length - 1);
 
-export const getRandomIndex = (coll) => Math.floor(Math.random() * coll.length);
+export const getRandomItem = (coll) => coll[getRandomIndex(coll)];
 
 export const runStep = (question, correctAnswer, userName) => {
   console.log(`Question: ${question}`);

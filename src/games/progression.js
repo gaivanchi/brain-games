@@ -19,7 +19,7 @@ export default () => {
 
   for (let countCorrectAnswers = 0; countCorrectAnswers < 3; countCorrectAnswers += 1) {
     const firstItem = getRandomNumber(-50, 50);
-    const progressionStep = getRandomNumber(0, 5);
+    const progressionStep = getRandomNumber(-5, 5);
     const progressionLength = getRandomNumber(5, 10);
 
     const progressionArr = getProgressionArr(firstItem, progressionLength, progressionStep);

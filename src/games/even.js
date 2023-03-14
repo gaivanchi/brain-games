@@ -7,7 +7,7 @@ const isEven = (number) => number % 2 === 0;
 export default () => {
   const userName = showGreetingAndGetName();
 
-  console.log('Answer "yes" if the number is even, otherwise answer "no"');
+  console.log('Answer "yes" if the number is even, otherwise answer "no".');
 
   for (let countCorrectAnswers = 0; countCorrectAnswers < 3; countCorrectAnswers += 1) {
     const question = getRandomNumber(-50, 50);
