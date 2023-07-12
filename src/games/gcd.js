@@ -3,15 +3,6 @@ import {
 } from '../index.js';
 
 const getGCD = (number1, number2) => {
-  const difference = number1 - number2;
-
-  if (number1 === 0 || number2 === 0) {
-    return Math.abs(difference);
-  }
-  if (difference === 0) {
-    return Math.abs(number1);
-  }
-
   let result = Math.min(Math.abs(number1), Math.abs(number2));
 
   while (result > 0) {
@@ -21,7 +12,7 @@ const getGCD = (number1, number2) => {
     result -= 1;
   }
 
-  return NaN;
+  return Math.abs(number1 - number2);
 };
 
 export default () => {
