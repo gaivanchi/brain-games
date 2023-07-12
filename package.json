@@ -2,12 +2,19 @@
   "name": "@hexlet/code",
   "version": "1.0.0",
   "description": "Проект frontend-project-44 на Хекслете",
-  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gaivanchi/frontend-project-44.git"
+  },
   "author": "gaivanchi",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gaivanchi/frontend-project-44/issues"
+  },
+  "homepage": "https://github.com/gaivanchi/frontend-project-44#readme",
   "type": "module",
   "bin": {
     "brain-games": "bin/brain-games.js",
