@@ -1,20 +1,20 @@
 {
-  "name": "@hexlet/code",
+  "name": "brain-games",
   "version": "1.0.0",
-  "description": "Проект frontend-project-44 на Хекслете",
+  "description": "Set of five console games inspired by popular mobile brain-pumping apps",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gaivanchi/frontend-project-44.git"
+    "url": "git+https://github.com/gaivanchi/brain-games.git"
   },
   "author": "gaivanchi",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/gaivanchi/frontend-project-44/issues"
+    "url": "https://github.com/gaivanchi/brain-games/issues"
   },
-  "homepage": "https://github.com/gaivanchi/frontend-project-44#readme",
+  "homepage": "https://github.com/gaivanchi/brain-games#readme",
   "type": "module",
   "bin": {
     "brain-games": "bin/brain-games.js",
